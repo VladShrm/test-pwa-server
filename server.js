@@ -7,7 +7,7 @@ const jwt = require('jsonwebtoken');
 const app = express();
 
 app.use(cors({
-    origin: ['https://test-pwa-client-ten.vercel.app/'],
+    origin: ['https://test-pwa-client-ten.vercel.app'],
     credentials: true
 }));
 
